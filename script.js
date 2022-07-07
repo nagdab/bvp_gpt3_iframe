@@ -1,5 +1,3 @@
-// gsap.registerPlugin(ScrollTrigger);
-
 function setupTypewriter(t) {
 	    var HTML = t.innerHTML;
 
@@ -69,23 +67,13 @@ var typer = document.getElementById('typewriter1');
 
 typewriter1 = setupTypewriter(typer);
 
-// typewriter1.type();
-
 var typer = document.getElementById('typewriter2');
 
 typewriter2 = setupTypewriter(typewriter2);
 
-// typewriter2.type();
-
 var typer = document.getElementById('typewriter3');
 
 typewriter3 = setupTypewriter(typewriter3);
-
-// function type_all() {
-// 	typewriter1.type();
-// 	typewriter2.type();
-// 	typewriter3.type();
-// }
 
 let typewriter_map = new Map([
 	[document.querySelector("#typewriter1"), typewriter1],
@@ -105,24 +93,3 @@ var observer1 = new IntersectionObserver(function(entries) {
 observer1.observe(document.querySelector("#typewriter1"));
 observer1.observe(document.querySelector("#typewriter2"))
 observer1.observe(document.querySelector("#typewriter3"))
-
-// console.log(observer1.takeRecords());
-
-
-// var observer2 = new IntersectionObserver(function(entries) {
-// 	if(entries[0].isIntersecting === true) {
-// 		typewriter2.type();
-// 		console.log('Element is fully visible in screen');
-// 	}
-// }, { threshold: [0.2] });
-
-// observer2.observe(document.querySelector("#typerwriter2"));
-
-// var observer3 = new IntersectionObserver(function(entries) {
-// 	if(entries[0].isIntersecting === true) {
-// 		typewriter3.type();
-// 		console.log('Element is fully visible in screen');
-// 	}
-// }, { threshold: [0.2] });
-
-// observer3.observe(document.querySelector("#typerwriter3"));
