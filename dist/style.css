@@ -1,0 +1,101 @@
+<style>
+
+.var-highlight {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.string-highlight {
+  color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter1 {
+  padding:30px;
+  font-size: 22px;
+  margin: 0;
+  font-family: "Courier New";
+}
+#typewriter1:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+#typewriter2 {
+  padding:30px;
+  font-size: 22px;
+  margin: 0;
+  font-family: "Courier New";
+}
+#typewriter2:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+#typewriter3 {
+  padding:30px;
+  font-size: 22px;
+  margin: 0;
+  font-family: "Courier New";
+}
+#typewriter3:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+#gpt {
+  width: 30%;
+  display: flex;
+  padding: 1em;
+  font-family: "Courier New";
+  font-size: 26px;
+  background-color: orange;
+  color: white;
+  min-width: 200px;
+  vertical-align: middle;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.row {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#gpt-all {
+  padding:30px;
+}
+
+#visualizing_improvements {
+  color: #99B9D0;
+  font-family: "NoeDisplay", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#we_tested_models {
+  color: orange;
+  font-family: europa, sans-serif;
+  font-size: 15px;
+}
+
+</style>
